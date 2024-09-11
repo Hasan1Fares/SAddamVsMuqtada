@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحدي الجيشين</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>انقر على الصوره لكي ترتفع نقاط</h1>
+    <div id="saddamArmy" class="army">
+        <img src="saddam.jpg" alt="جيش صدام">
+        <p class="army-name">جيش صدام</p>
+        <h3>عدد الضغطات: <span id="saddamCount">0</span></h3>
+    </div>
+    <div id="muqtadaArmy" class="army">
+        <img src="muqtada.jpg" alt="جيش مقتدى">
+        <p class="army-name">جيش مقتدى</p>
+        <h3>عدد الضغطات: <span id="muqtadaCount">0</span></h3>
+    </div>
+
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

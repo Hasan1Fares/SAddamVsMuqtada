@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.army {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.army img {
+    width: 150px;
+    height: auto;
+    border: 3px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.army img:hover {
+    border-color: rgb(74, 22, 22);
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.army-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
