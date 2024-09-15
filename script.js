@@ -1,12 +1,12 @@
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCidxdgyfoeCWDmMyULnOO-zNCYGK9F_jA",
-    authDomain: "click-b5425.firebaseapp.com",
-    databaseURL: "https://click-b5425-default-rtdb.firebaseio.com/",
-    projectId: "click-b5425",
-    storageBucket: "click-b5425.appspot.com",
-    messagingSenderId: "1050718593602",
-    appId: "1:1050718593602:web:f34b928f83b88c6c15c3db"
+    apiKey: "AIzaSyCviH2QwpetbwXHNHp_lpPRoCVwL7I2X94",
+    authDomain: "saddamvsmuqtada.firebaseapp.com",
+    databaseURL: "https://saddamvsmuqtada-default-rtdb.firebaseio.com/",
+    projectId: "saddamvsmuqtada",
+    storageBucket: "saddamvsmuqtada.appspot.com",
+    messagingSenderId: "166377763076",
+    appId: "1:166377763076:web:ec1b5b171b9160c1832051"
 };
 
 // Initialize Firebase
